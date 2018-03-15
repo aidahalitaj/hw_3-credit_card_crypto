@@ -24,7 +24,7 @@ class CreditCard
       'number' => @number,
       'expiration_date' => @expiration_date,
       'owner' => @owner,
-      'credit_network' => @credit_network,
+      'credit_network' => @credit_network
     }.to_json
   end
 
